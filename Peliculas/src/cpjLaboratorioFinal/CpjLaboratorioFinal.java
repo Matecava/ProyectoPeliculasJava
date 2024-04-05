@@ -50,7 +50,7 @@ public class CpjLaboratorioFinal {
                     var pelicula = consola.nextLine();
                     catalogoPeliculas.buscarPelicula(pelicula);
                 }
-                default -> System.out.println("opcion  no reconocida");
+                default -> System.out.println("Opcion no reconocida");
             }
 
         }
